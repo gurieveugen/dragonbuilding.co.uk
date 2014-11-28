@@ -111,6 +111,9 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 					<td class="last"><?php echo WC()->cart->get_cart_subtotal(); ?></td>
 				</tr>
 			</table>
+			<div class="right">
+				<a href="/checkout/" title="Checkout" class="button grey alt">Checkout</a>
+			</div>
 		</div>
 		<?php } ?>		
 	</div>

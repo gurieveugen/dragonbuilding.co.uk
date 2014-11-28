@@ -542,10 +542,10 @@ body.woocommerce-page input.button.alt,
 body.woocommerce-page input.button,
 body.woocommerce-page #respond input#submit.alt,
 body.woocommerce-page #content input.button.alt{
-	background: #be1e2d;
+	background: #bf1e2e;
 	border: none;
 	text-shadow: none;
-	color: #181818;
+	color: #FFFFFF;
 	font: 15px/15px 'Raleway SemiBold', Arial, Helvetica, sans-serif;
 	padding: 19px 20px 16px;
 	text-align: center;
@@ -566,7 +566,7 @@ body.woocommerce-page input.button:hover,
 body.woocommerce-page #respond input#submit.alt:hover,
 body.woocommerce-page #content input.button.alt:hover{
 	background: #be1e2d;
-	color: #181818;
+	color: #FFFFFF;
 	text-shadow: none;
 }
 body.woocommerce-page a.button.grey,
@@ -580,13 +580,15 @@ body.woocommerce-page input.button.grey:hover,
 body.woocommerce-page #respond input#submit.grey:hover,
 body.woocommerce-page #content input.button.grey:hover{
 	background: #d4dada;
+	color: #181818;
 }
 .main-product .variations_button .button{
 	margin: 0 0 0 10px;
 	float: left;
 }
 body.woocommerce-page .shop_table.cart input.button{
-	padding: 8px 10px 5px;
+  margin-top:21px;
+	padding: 19px 20px 16px;
 }
 body.woocommerce div.product .product_title,
 body.woocommerce #content div.product .product_title{
@@ -756,7 +758,7 @@ body.woocommerce-page table.cart td{
 	background: #fff;
 	border-left: 1px solid #b7b7b7;
 	text-align: center;
-	padding-bottom: 40px;
+	padding-bottom: 10px;
 }
 body.woocommerce-page table.cart td.actions{
 	padding-bottom: 15px;
@@ -837,7 +839,7 @@ body.woocommerce-page .cart-collaterals .cart_totals{
 .woocommerce-page .cart-collaterals .cart_totals .cart-totals-table td{
 	padding: 7px 15px;
 	text-align: right;
-	background: #ff6666;
+	background: #e5e5e5;
 	border: none;
 }
 .woocommerce-page .cart-collaterals .cart_totals .cart-totals-table th{
@@ -923,7 +925,7 @@ body.woocommerce-page .cart-collaterals .cart_totals{
 }
 .single_variation,
 form.cart .quantity{
-	display: none;
+
 }
 body.woocommerce-page div.product form.cart{
 	margin: 0;
@@ -932,7 +934,7 @@ body.woocommerce-page div.product form.cart{
 	height: 100% !important;
 }
 .variations_form .quantity{
-	display: none !important;
+	
 }
 /* end woocommerce styles */
 

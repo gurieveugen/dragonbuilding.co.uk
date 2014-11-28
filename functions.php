@@ -289,3 +289,17 @@ function woocommerce_content() {
 
 		}
 	}
+
+
+require_once 'includes/BulkPricing.php';
+
+add_action( 'woocommerce_before_add_to_cart_form', 'show_pricing_rules' );
+
+function show_pricing_rules() {
+  
+    global $woocommerce, $product, $post;
+
+    $bulk_pricing = new BulkPricing($woocommerce, $product, $post);
+    echo $bulk_pricing->getHTML();
+    echo '<b>For orfders over 50 units please <a href="/contact">contact us</a></b>';
+}

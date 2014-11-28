@@ -1289,3 +1289,103 @@ span.wpcf7-form-control-wrap{
 	display:table;
 	clear:both;
 }
+
+
+div.stylized-quantuty
+{
+  width:120px !important;
+  margin:0px 0px 11px 0px !important;
+	padding:0px !important;
+	float:right !important;
+}
+
+div.stylized-quantuty input.plus
+{
+  width:33px !important;
+	height:33px !important;
+	margin:0px !important;
+	padding:0px !important;
+	display:block !important;
+	float:left !important;
+	border:none !important;
+	background:center center url(images/plus.gif) no-repeat #aeaeae !important;
+	text-indent:-9999em !important;
+	border-radius:0px !important;
+	text-shadow:none !important;
+	box-shadow:none !important;
+	overflow:hidden !important;
+	position:relative !important;
+	top:auto !important;
+	left:auto !important;
+	right:auto !important;
+}
+
+div.stylized-quantuty input.minus
+{
+  width:33px !important;
+	height:33px !important;
+	margin:0px !important;
+	padding:0px !important;
+	display:block !important;
+	float:right !important;
+	border:none !important;
+	background:center center url(images/minus.gif) no-repeat #aeaeae !important;
+	text-indent:-9999em !important;
+	border-radius:0px !important;
+	text-shadow:none !important;
+	box-shadow:none !important;
+	overflow:hidden !important;
+	position:relative !important;
+	top:auto !important;
+	left:auto !important;
+	right:auto !important;
+}
+
+div.stylized-quantuty input.text
+{
+  width:54px !important;
+	height:33px !important;
+  padding:0px 0px 0px 0px !important;
+	margin:0px !important;
+	display:block !important;
+	float:right !important;
+	border:2px solid #aeaeae !important;
+	background:#FFFFFF !important;
+	font-family:Arial, Helvetica, sans-serif !important;
+	font-size:12px !important;
+	font-weight:normal !important;
+	line-height:29px !important;
+	text-align:center !important;
+	color:#000000 !important;
+	border-radius:0px !important;
+	text-shadow:none !important;
+	box-shadow:none !important;
+	overflow:hidden !important;
+	position:relative !important;
+	top:auto !important;
+	left:auto !important;
+	right:auto !important;
+}
+
+div.box-basket
+{
+  zoom:1;
+}
+
+div.box-basket:before, 
+div.box-basket:after
+{
+  content:"";
+  display:block;
+  overflow:hidden;
+}
+
+div.box-basket:after
+{
+  clear:both;
+}
+
+div.box-basket div.right
+{
+  padding:5px 5px 0px 0px;
+}

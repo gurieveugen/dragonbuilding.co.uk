@@ -12,9 +12,10 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 global $woocommerce, $product, $post;
 ?>
 
-<?php do_action( 'woocommerce_before_add_to_cart_form' ); ?>
+
 </div><!-- .summary -->
 <div class="box box-1 cf">
+<?php do_action( 'woocommerce_before_add_to_cart_form' ); ?>
 <form class="variations_form cart" method="post" enctype='multipart/form-data' data-product_id="<?php echo $post->ID; ?>" data-product_variations="<?php echo esc_attr( json_encode( $available_variations ) ) ?>">
 	<?php if ( ! empty( $available_variations ) ) : ?>
 	<script type="text/javascript">
@@ -24,7 +25,7 @@ global $woocommerce, $product, $post;
         function changeVar(sel){
 
                 setTimeout(function() { 
-									jQuery('.quantity').hide();
+									//jQuery('.quantity').hide();
 									var amount = '';
 									jQuery(".single_variation_wrap .single_variation .price").each(function(){
 										//alert(jQuery(this).html());

@@ -131,6 +131,13 @@ do_action( 'woocommerce_before_cart' ); ?>
 		do_action( 'woocommerce_cart_contents' );
 		?>
 		<tr>
+			<td colspan="100%">
+				<div class="right">
+					<input type="submit" class="update-button button" name="update_cart" value="<?php _e('Update cart'); ?>" />		
+				</div>
+			</td>
+		</tr>
+		<tr>
 			<td colspan="6" class="actions">
 
 				<?php /* if ( WC()->cart->coupons_enabled() ) { ?>
@@ -157,7 +164,6 @@ do_action( 'woocommerce_before_cart' ); ?>
 		<?php do_action( 'woocommerce_after_cart_contents' ); ?>
 	</tbody>
 </table>
-
 <?php do_action( 'woocommerce_after_cart_table' ); ?>
 
 </form>
