@@ -292,6 +292,34 @@ function woocommerce_content() {
 
 
 require_once 'includes/BulkPricing.php';
+require_once 'includes/__.php';
+
+// ==============================================================
+// Controls collection
+// ==============================================================
+$ccollection_product_additional = new Controls\ControlsCollection(
+	array(
+		new Controls\Checkbox(
+			'Hide prices table', 
+			array(
+				'default-value' => '',
+				'label'         => 'Hide ? '
+			), 
+			array()
+		),
+	)
+);
+// ==============================================================
+// Meta Boxes
+// ==============================================================
+$meta_box_slider = new Admin\MetaBox(
+	'Additional options', 
+	array(
+		'post_type' => 'product',
+		'context'   => 'side'
+	), 
+	$ccollection_product_additional
+);
 
 add_action( 'woocommerce_before_add_to_cart_form', 'show_pricing_rules' );
 

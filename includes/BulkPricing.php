@@ -48,18 +48,25 @@ class BulkPricing{
 	public function getVariableHTML()
 	{
 		$terms = array();
+		$names = array();
 
+		$hide_pricing_table = get_post_meta( $this->post->ID, 'additional_options_hide_prices_table', true );
 		$pricing_groups = get_post_meta( $this->post->ID, '_pricing_rules', true );
+
+		if($hide_pricing_table == 'on') return '';
         foreach ($pricing_groups as $pricing_rules) 
         {
         	$var_ids = $pricing_rules['variation_rules']['args']['variations'];
-        	foreach ($var_ids as $var_id) 
+        	if(is_array($var_ids) && count($var_ids))
         	{
-        		$cfs     = get_post_custom($var_id);
-        		$slug    = end($cfs);
-        		$slug    = $slug[0];
-        		$term    = get_term_by('slug', $slug, 'pa_manufacturing-material');
-        		$names[] = sprintf('<td>%s</td>', $term->description);
+        		foreach ($var_ids as $var_id) 
+        		{
+        			$cfs     = get_post_custom($var_id);
+        			$slug    = end($cfs);
+        			$slug    = $slug[0];
+        			$term    = get_term_by('slug', $slug, 'pa_manufacturing-material');
+        			$names[] = sprintf('<td>%s</td>', $term->description);
+        		}	
         	}
         }
         return $this->getTableHTML($names);
