@@ -106,9 +106,11 @@ global $woocommerce, $product, $post;
 			<div class="variations_button">
 				<div class="right">
 					<?php woocommerce_quantity_input(); ?>
-					<button type="submit" class="single_add_to_cart_button button alt"><?php echo $product->single_add_to_cart_text(); ?></button>
-					<?php if (sizeof($woocommerce->cart->cart_contents)>0) :?>
-					<a href="<?php echo $woocommerce->cart->get_checkout_url()?>" title="<?php _e('Checkout','woothemes') ?>" class="button grey alt"><?php _e('Checkout','woothemes') ?></a>
+					<div class="btn-bottom">
+					  <button type="submit" class="single_add_to_cart_button button alt"><?php echo $product->single_add_to_cart_text(); ?></button>
+					  <?php if (sizeof($woocommerce->cart->cart_contents)>0) :?>
+					  <a href="<?php echo $woocommerce->cart->get_checkout_url()?>" title="<?php _e('Checkout','woothemes') ?>" class="button grey alt"><?php _e('Checkout','woothemes') ?></a>
+					</div>
 					<?php endif; ?>					
 				</div>	
 			</div>

@@ -114,7 +114,7 @@ class BulkPricing{
 		if(!is_array($table)) return '';
 		ob_start();
 		?>
-		<table>
+		<table class="table-backet">
 			<tbody>
 				<?php
 				foreach ($table as $row) 

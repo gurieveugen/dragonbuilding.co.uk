@@ -59,7 +59,7 @@
 			</div>
 			<div class="center-wrap">
 				<div class="contacts-area cf">
-					<strong class="m-left"><a href="tel:+44 (0) 1656 870415">+44 (0) 1656 870415</a></strong>
+					<strong class="m-left"><a href="tel:08442641264">0844 264-1-264</a></strong>
 					<strong><a href="/contact" class="link-email">Email us</a></strong>
 				</div>
 				<a href="<?php echo home_url('/'); ?>" class="logo" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home"><img src="<?php echo TDU; ?>/images/dragon_logo.png" alt="<?php bloginfo('name'); ?>"></a>

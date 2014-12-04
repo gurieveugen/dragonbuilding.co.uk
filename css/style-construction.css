@@ -1,941 +1,1884 @@
 /* marine styles */
+
 #header{
+
 	padding: 0;
+
 }
+
 .aside{
+
 	width: 205px;
+
 	background: #f2f8f8;
+
 	padding: 20px 13px;
+
 	color: #58595b;
+
 }
+
 .nav-aside{
+
 	list-style: none;
+
 	margin: 0;
+
 	padding: 0;
+
 	font: 18px/22px 'Raleway SemiBold', Arial, Helvetica, sans-serif;
+
 }
+
 .nav-aside li{
+
 	margin: 17px 0 0;
+
 }
+
 .nav-aside li:first-child{
+
 	margin: 0;
+
 }
+
 .nav-aside a{
+
 	display: inline-block;
+
 }
+
 .nav-aside a:after{
+
 	content: '';
+
 	display: inline-block;
+
 	vertical-align: middle;
+
 	background: url(../images/arrow-view.png) no-repeat;
+
 	width: 15px;
+
 	height: 14px;
+
 	margin: 0 0 2px 8px;
+
 }
+
 .nav-aside ul{
+
 	list-style: none;
+
 	margin: 0;
+
 	padding: 12px 0 0 36px;
+
 	font-size: 14px;
+
 	line-height: 18px;
+
 }
+
 .nav-aside ul a:after{
+
 	display: none;
+
 }
+
 .nav-aside ul li{
+
 	margin-top: 6px;
+
 }
+
 .nav-aside ul li:first-child{
+
 	margin: 0;
+
 }
+
 .c-inner{
+
 	padding-right: 60px;
+
 }
+
 .main-area.inner-1{
+
 	padding: 15px 0 50px;
+
 }
+
 .top-bar{
+
 	background: #f2f8f8;
+
 	padding: 13px 0;
+
 	margin: 0 0 10px;
+
 }
+
 .top-links{
+
 	list-style: none;
+
 	padding: 0;
+
 	margin: 0;
+
 	float: right;
+
 	color: #575757;
+
 	font: 13px/15px 'Raleway SemiBold', Arial, Helvetica, sans-serif;
+
 	text-transform: uppercase;
+
 }
+
 .top-links > li{
+
 	float: left;
+
 	margin: 0 0 0 32px;
+
 }
+
 .top-links > li:first-child{
+
 	margin: 0;
+
 }
+
 .top-links li a{
+
 	color: #575757;
+
 }
+
 .top-links .lang{
+
 	position: relative;
+
 }
+
 .top-links .lang > a{
+
 	background: url(../images/arrow.png) no-repeat 100% 50%;
+
 	display: block;
+
 	padding: 0 15px 0 0;
+
 }
+
 .top-links .lang > a:hover{
+
 	text-decoration: none;
+
 }
+
 .top-links .lang ul{
+
 	list-style: none;
+
 	margin: 0;
+
 	padding: 0;
+
 	display: none;
+
 	position: absolute;
+
 	left: 0;
+
 	right: 0;
+
 	top: 20px;
+
 	z-index: 100;
+
 	background: #00447b;
+
 	font-size: 13px;
+
 }
+
 .top-links .lang:hover ul{
+
 	display: block;
+
 }
+
 .top-links .lang ul a{
+
 	padding: 2px 10px;
+
 	display: block;
+
 	color: #fff;
+
 }
+
 .top-links .lang ul a:hover{
+
 	background: #00559c;
+
 	text-decoration: none;
+
 }
+
+
 
 /* end marine styles */
 
+
+
 /* construction styles */
 
+
+
 .top-links .link-basket{
+
 	background: url(../images/ico-basket.png) no-repeat 100% 0;
+
 	background-size: 21px 18px;
+
 	display: inline-block;
+
 	padding: 3px 35px 0 0;
+
 	margin: -3px 0 0;
+
 }
+
 .main-slider{
+
 	height: 340px;
+
 	margin: 0 0 40px;
+
 	overflow: hidden;
+
 	position: relative;
+
 }
+
 .main-slider .slides{
+
 	position: relative;
+
 	height: 100%;
+
 }
+
 .main-slider .slides .slide{
+
 	display: none;
+
 	height: 100%;
+
 }
+
 .main-slider .slides .slide:first-child{
+
 	display: block;
+
 }
+
 .main-slider img{
+
 	position: absolute;
+
 	left: 0;
+
 	top: 0;
+
 	max-width: inherit;
+
 	height: 100%;
+
 }
+
 .main-slider .text{
+
 	position: relative;
+
 	float: right;
+
 	z-index: 3;
+
 	display: table;
+
 	height: 100%;
+
 	width: 296px;
+
 	background: #be1e2d;
+
 	color: #fff;
+
 }
+
 .main-slider .text:after{
+
 	content:'';
+
 	position: absolute;
+
 	background: url(../images/slider-arrow-red.png) no-repeat 0 50%;
+
 	width: 80px;
+
 	height: 100%;
+
 	left: -80px;
+
 	top: 0;
+
 }
+
 .main-slider .text .holder{
+
 	display: table-cell;
+
 	vertical-align: middle;
+
 	padding: 0 30px 0 0;
+
 }
+
 .main-slider .text h2{
+
 	margin: 0 0 25px;
+
 	text-transform: uppercase;
+
 	font: 37px/44px 'Raleway Bold', Arial, Helvetica, sans-serif;
+
 }
+
 .main-slider .text  small{
+
 	display: block;
+
 	font-size: 18px;
+
 	font: 18px/20px 'Raleway Bold', Arial, Helvetica, sans-serif;
+
 }
+
 .main-slider .text big{
+
 	font: 88px/88px 'Raleway Bold', Arial, Helvetica, sans-serif;
+
 	display: block;
+
 	margin: -3px 0 0;
+
 }
+
 .widgets-slider .widget h2{
+
 	font: 35px/42px 'Raleway Bold', Arial, Helvetica, sans-serif;
+
 	color: #be1e2d;
+
 	margin: 0 0 15px;
+
 }
+
 .widgets-slider .widget h2 a{
+
 	color: #fec325;
+
 }
+
 .main-slider .flex-control-paging{
+
 	position: absolute;
+
 	z-index: 50;
+
 	bottom: 10px;
+
 	left: 0;
+
 	right: 0;
+
 	list-style: none;
+
 	margin: 0;
+
 	padding: 0;
+
 	text-align: center;
+
 }
+
 .main-slider .flex-control-paging li{
+
 	display: inline-block;
+
 	vertical-align: top;
+
 	margin: 0 3px;
+
 }
+
 .main-slider .flex-control-paging a{
+
 	display: block;
+
 	background: url(../images/slider-bullets-red.png) no-repeat;
+
 	width: 13px;
+
 	height: 12px;
+
 	text-indent: -9999px;
+
 	overflow: hidden;
+
 	cursor: pointer;
+
 }
+
 .main-slider .flex-control-paging a.flex-active{
+
 	background-position: -13px 0;
+
 }
+
 .link-view{
+
 	text-indent: 0;
+
 	font: 15px/18px 'Raleway Bold', Arial, Helvetica, sans-serif;
+
 	width: auto;
+
 	height: auto;
+
 	padding: 0 20px 0 0;
+
 	background-position: 100% 2px;
+
 }
+
 #sidebar.sidebar-home .widget-top-picks{
+
 	padding: 13px 25px;
+
 }
+
 #sidebar.sidebar-home .widget-top-picks h3{
+
 	color: #181818;
+
 	font-size: 21px;
+
 	margin: 0 -20px 7px;
+
 	text-align: center;
+
 }
+
 .picks-list-slider{
+
 	position: relative;
+
 }
+
 .picks-list-slider .flex-direction-nav{
+
 	list-style: none;
+
 	margin: 0;
+
 	padding: 10px 0 0;
+
 	text-align: center;
+
 	line-height: 0;
+
 }
+
 .picks-list-slider .flex-direction-nav li{
+
 	display: inline-block;
+
 	vertical-align: top;
+
 	margin: 0 3px;
+
 }
+
 .picks-list-slider .flex-prev,
+
 .picks-list-slider .flex-next{
+
 	display: block;
+
 	background: url(../images/arrows-slider-black.png) no-repeat 0 -18px;
+
 	width: 18px;
+
 	height: 18px;
+
 	text-indent: -9999px;
+
 	overflow: hidden;
+
 }
+
 .picks-list-slider .flex-prev{
+
 	background-position: -18px -18px;
+
 }
+
 .picks-list-slider .flex-viewport{
+
 	height: 475px !important;
+
 }
+
 .picks-list-slider .flex-disabled{
+
 	display: none;
+
 }
+
 /*.picks-list-slider .flex-viewport {
+
 	height: 470px !important;
+
 }*/
+
 .picks-list{
+
 	list-style: none;
+
 	margin: 0;
+
 	padding: 0;
+
 	color: #181818;
+
 }
+
 .picks-list li{
+
 	margin: 20px 0 0;
+
 	padding: 0 28px 14px;
+
 	background: #fff;
+
 	min-height: 215px;
+
 }
+
 .picks-list li:first-child{
+
 	margin: 0;
+
 }
+
 .picks-list .image{
+
 	height: 133px;
+
 	line-height: 133px;
+
 	padding: 5px 0 15px;
+
 	text-align: center;
+
 }
+
 .picks-list .image img{
+
 	vertical-align: middle;
+
 }
+
 .picks-list  h4{
+
 	font: 12px/14px 'Raleway SemiBold', Arial, Helvetica, sans-serif;
+
 	text-transform: uppercase;
+
 	margin: 0 0 8px;
+
 }
+
 .picks-list  h4 a{
+
 	color: #181818;
+
 }
+
 .picks-list  .price{
+
 	display: block;
+
 	width: 65px;
+
 	border-top: 1px solid #575757;
+
 	padding: 6px 0 0;
+
 	font: 16px/19px 'Raleway SemiBold', Arial, Helvetica, sans-serif;
+
 }
+
 .main-shop{
+
 	padding: 0 0 40px;
+
 }
+
 /* woocommerce styles */
 
+
+
 body.woocommerce ul.products{
+
 	background: #f2f8f8;
+
 	padding: 16px 0 0 5.3%;
+
 }
+
 body.woocommerce ul.products li.product{
+
 	width: 27.6%;
+
 	margin: 0 5.3% 4.2% 0;
+
 	background: #fff;
+
 	float: none;
+
 	display: inline-block;
+
 	vertical-align: top;
+
 }
+
 body.woocommerce ul.products li.first{
+
 	clear: none;
+
 }
+
 body.woocommerce-page .woocommerce-breadcrumb{
+
 	margin: 0;
+
 	color: #181818;
+
 	font:13px/15px 'Raleway SemiBold', Arial, Helvetica, sans-serif;
+
 }
+
 body.woocommerce-page .woocommerce-breadcrumb a{
+
 	color: #181818;
+
 }
+
 body.woocommerce ul.products li.product > a{
+
 	padding: 11px 15px;
+
 	min-height: 283px;
+
 	display: block;
+
 }
+
 body.woocommerce ul.products li.product .onsale{
+
 	margin: 0;
+
 }
+
 .woocommerce ul.products .image{
+
 	height: 200px;
+
 	line-height: 200px;
+
 	margin: 0 0 14px;
+
 }
+
 body.woocommerce ul.products li.product a img,
+
 body.woocommerce ul.products li.product:hover a img{
+
 	-webkit-box-shadow:none;
+
 	box-shadow:none;
+
 }
+
 body.woocommerce ul.products li.product a img{
+
 	vertical-align: middle;
+
 	display: inline;
+
 }
+
 .woocommerce ul.products .mask{
+
 	position: absolute;
+
 	left: 0;
+
 	right: 0;
+
 	top: 0;
+
 	bottom: 0;
+
 	background: url(../images/bg-mask.png);
+
 	-webkit-transition: all 500ms ease;
+
 	-moz-transition: all 500ms ease;
+
 	-ms-transition: all 500ms ease;
+
 	-o-transition: all 500ms ease;
+
 	transition: all 500ms ease;
+
 	opacity: 0;
+
 	filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+
 }
+
 .woocommerce ul.products li.product:hover .mask{
+
 	opacity: 100;
+
 	filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+
 }
+
 .woocommerce ul.products .mask > span{
+
 	position: absolute;
+
 	top: 50%;
+
 	left: 0;
+
 	right: 0;
+
 	margin: -18px 0 0;
+
 	text-align: center;
+
 }
+
 .woocommerce ul.products .mask span span{
+
 	background: #be1e2d;
+
 	font: 18px/37px 'Raleway Bold', Arial, Helvetica, sans-serif;
+
 	padding: 0 25px;
+
 	display: inline-block;
+
 	color: #ffffff;
+
 }
+
 body.woocommerce ul.products li.product h3{
+
 	text-transform: uppercase;
+
 	color: #181818;
+
 	font: 14px/16px 'Raleway SemiBold', Arial, Helvetica, sans-serif;
+
 	margin: 0 0 7px;
+
 	padding: 0;
+
 }
+
 body.woocommerce ul.products li.product .price{
+
 	color: #181818;
+
 	font: 16px/18px 'Raleway SemiBold', Arial, Helvetica, sans-serif;
+
 	border-top: 2px solid #181818;
-	width: 87px;
+
+	width: 200px;
+
 	max-width: 80%;
+
 	padding: 7px 0 0;
+
 	margin: 0;
+
 }
+
 body.woocommerce ul.products li.product .price del{
+
 	font-size: 10px;
+
 }
+
 body.woocommerce .related ul li.product,
+
 body.woocommerce .related ul.products li.product,
+
 body.woocommerce .upsells.products ul li.product,
+
 body.woocommerce .upsells.products ul.products li.product{
+
 	width: 27.6%;
+
 }
+
 body.woocommerce .main-product .products{
+
 	padding: 0;
+
 }
+
 .shop-filters{
+
 	padding-bottom: 30px;
+
 }
+
 body.woocommerce .woocommerce-ordering{
+
 	margin: 0 0 0 40px;
+
 }
+
 body.woocommerce .woocommerce-ordering select{
+
 	width: 240px;
+
 }
+
 .w-search-form ::-webkit-input-placeholder{
+
 	color:#181818;
+
 }
+
 .w-search-form :-moz-placeholder{
+
 	color:#181818;
+
 }
+
 .w-search-form ::-moz-placeholder{
+
 	color:#181818;
+
 	opacity:1 !important;
+
 }
+
 .w-search-form :-ms-input-placeholder{
+
 	color:#181818;
+
 }
+
 .w-search-form{
+
 	float: right;
+
 	border: 1px solid #cbcbcb;
+
 	margin: 0 0 0 31px;
+
 }
+
 .w-search-form input[type="text"]{
+
 	float:left;
+
 	background:#fff;
+
 	border:none;
+
 	margin:0;
+
 	padding:5px 0 5px 14px;
+
 	width:198px;
+
 	height:33px;
+
 	font: 19px 'Raleway SemiBold', Arial, Helvetica, sans-serif;
+
 	color: #181818;
+
 }
+
 .w-search-form input[type="submit"]{
+
 	float: left;
+
 	background:url(../images/ico-search.png) no-repeat 50% 50%;
+
 	border:none;
+
 	margin:;
+
 	padding:0;
+
 	width:40px;
+
 	height:33px;
+
 	text-indent:-9999px;
+
 	font-size:0;
+
 	line-height:0;
+
 	cursor:pointer;
+
 }
+
 .main-product{
+
 	background: #f2f8f8;
+
 }
+
 .main-product > .product{
+
 	padding: 24px 40px;
+
 }
+
 body.woocommerce ul.products li.product:nth-child(2n){
+
 	float: none;
+
 }
+
 body.woocommerce #content div.product div.summary,
+
 body.woocommerce div.product div.summary{
+
 	margin: 0;
+
 	float: none;
+
 	width: auto;
+
 }
+
 body.woocommerce span.onsale{
+
 	left: auto;
+
 	right: 6px;
+
 	z-index: 5;
+
 }
+
 .main-product .column{
+
 	width: 49.4%;
+
 }
+
 .main-product .column.right{
+
 	width: 45%;
+
 }
+
 .btn-brochure{
+
 	float: right;
+
 	background: url(../images/btn-brochure.png) no-repeat;
+
 	width: 116px;
+
 	height: 37px;
+
 	text-indent: -9999px;
+
 	overflow: hidden;
+
 	margin: 10px 0 0;
+
 }
+
 .main-product .box{
+
 	/*padding: 22px 18px 15px 22px;*/
+
 	padding: 22px 18px 15px;
+
 	background: #fff;
+
 	margin: 0 0 25px !important;
+
 }
+
 .main-product .box.box-1{
+
 	padding: 18px 10px;
+
 }
+
 /*.main-product .box-basket{
+
 	padding: 25px 15px 15px;
+
 }*/
 
+
+
 .main-product .price-row p{
+
 	float: left;
-	width: 88px;
+
+	width: 200px;
+
 	padding: 18px 0 0;
+
 	border-top: 2px solid #181818;
+
 	margin: 0;
+
 	line-height: 23px;
+
 }
+
 body.woocommerce-page a.button.alt,
+
 body.woocommerce-page button.button.alt,
+
 body.woocommerce-page input.button.alt,
+
 body.woocommerce-page input.button,
+
 body.woocommerce-page #respond input#submit.alt,
+
 body.woocommerce-page #content input.button.alt{
+
 	background: #bf1e2e;
+
 	border: none;
+
 	text-shadow: none;
+
 	color: #FFFFFF;
+
 	font: 15px/15px 'Raleway SemiBold', Arial, Helvetica, sans-serif;
+
 	padding: 19px 20px 16px;
+
 	text-align: center;
+
 	min-width: 164px;
+
 	text-transform: uppercase;
+
 	-webkit-border-radius:0;
+
 	border-radius:0;
+
 	-webkit-box-shadow:none;
+
 	box-shadow:none;
+
 	-webkit-box-sizing: border-box;
+
 	-moz-box-sizing: border-box;
+
 	box-sizing: border-box;
+
 }
+
 body.woocommerce-page a.button.alt:hover,
+
 body.woocommerce-page button.button.alt:hover,
+
 body.woocommerce-page input.button.alt:hover,
+
 body.woocommerce-page input.button:hover,
+
 body.woocommerce-page #respond input#submit.alt:hover,
+
 body.woocommerce-page #content input.button.alt:hover{
+
 	background: #be1e2d;
+
 	color: #FFFFFF;
+
 	text-shadow: none;
+
 }
+
 body.woocommerce-page a.button.grey,
+
 body.woocommerce-page button.button.grey,
+
 body.woocommerce-page input.button.grey,
+
 body.woocommerce-page #respond input#submit.grey,
+
 body.woocommerce-page #content input.button.grey,
+
 body.woocommerce-page a.button.grey:hover,
+
 body.woocommerce-page button.button.grey:hover,
+
 body.woocommerce-page input.button.grey:hover,
+
 body.woocommerce-page #respond input#submit.grey:hover,
+
 body.woocommerce-page #content input.button.grey:hover{
+
 	background: #d4dada;
+
 	color: #181818;
+
 }
+
 .main-product .variations_button .button{
+
 	margin: 0 0 0 10px;
+
 	float: left;
+
 }
+
 body.woocommerce-page .shop_table.cart input.button{
+
   margin-top:21px;
+
 	padding: 19px 20px 16px;
+
 }
+
 body.woocommerce div.product .product_title,
+
 body.woocommerce #content div.product .product_title{
+
 	text-transform: uppercase;
+
 	font-size: 19px;
+
 	line-height: 23px;
+
 	margin: 0 0 12px;
+
 }
+
 body.woocommerce div.product span.price,
+
 body.woocommerce div.product p.price,
+
 body.woocommerce #content div.product span.price,
+
 body.woocommerce #content div.product p.price{
+
 	font-size: 19px;
+
 	color: #181818;
+
 }
+
 body.woocommerce div.product span.price del,
+
 body.woocommerce div.product p.price del,
+
 body.woocommerce #content div.product span.price del,
+
 body.woocommerce #content div.product p.price del{
+
 	font-size: 13px;
+
 }
+
 .attr-accordion{
+
 	border: 1px solid #cbcbcb;
+
 	margin: 0 0 20px;
+
 	background: #fff;
+
 }
+
 .attr-accordion .title{
+
 	cursor: pointer;
+
 	padding: 17px 60px 17px 18px;
+
 	margin: 0;
+
 	font-size: 19px;
+
 	line-height: 22px;
+
 	text-transform: uppercase;
+
 	background: url(../images/arrow-accord.png) no-repeat 94% 50%;
+
 }
+
 .attr-accordion .content{
+
 	display: none;
+
 	font: 16px/19px 'Raleway SemiBold', Arial, Helvetica, sans-serif;
+
 	text-transform: uppercase;
+
 }
+
 .attr-accordion.open .content{
+
 	display: block;
+
 }
+
 .attr-accordion .content > .holder{
+
 	padding: 0 18px 6px;
+
 }
+
 .attr-accordion .content p{
+
 	margin: 0 0 11px;
+
 }
+
 .attr-accordion .content p strong{
+
 	font-family: 'Raleway SemiBold', Arial, Helvetica, sans-serif;
+
 }
+
 .woocommerce .main-image{
+
 	position: relative;
+
 	overflow: hidden;
+
 	cursor: move;
+
 	background: #fff;
+
 }
+
 body.woocommerce #content div.product div.images,
+
 body.woocommerce div.product div.images{
+
 	width: auto;
+
 	float: none;
+
 	margin: 0 0 30px;
+
 }
+
 body.woocommerce div.product div.images #main-image{
+
 	-webkit-box-shadow:none;
+
 	box-shadow:none;
+
 	position: absolute;
+
 	left: 0;
+
 	top: 0;
+
 	max-width: inherit;
+
 }
+
 body.woocommerce div.product div.images #main-image-hidden{
+
 	visibility: hidden;
+
 }
+
 .main-product .box-basket h3{
+
 	font-size: 19px;
+
 	line-height: 23px;
+
 	margin: 0 0 18px;
+
 }
+
 .main-product .divider{
+
 	display: block;
+
 	border-top: 2px solid #181818;
+
 	width: 90px;
+
 	height: 0;
+
 	margin: 0 0 16px;
+
 }
+
 .single-basket{
+
 	width: 100%;
+
 	font: 14px/17px 'Raleway SemiBold', Arial, Helvetica, sans-serif;
+
 	text-transform: uppercase;
+
 }
+
 .single-basket td,
+
 .single-basket th{
+
 	border: none;
+
 	border-left: 1px solid #c9d0d0;
+
 	padding: 8px 20px;
+
 }
+
 .single-basket td:first-child,
+
 .single-basket th:first-child{
+
 	border: none;
+
 	padding-left: 0;
+
 }
+
 .single-basket .total{
+
 	font-family: 'Raleway Bold', Arial, Helvetica, sans-serif;
+
 }
+
 .single-basket .total td,
+
 .single-basket .total th{
+
 	border: none;
+
 	padding-top: 28px;
+
 }
+
 .single-basket td.last,
+
 .single-basket th.last{
+
 	text-align: right;
+
 	padding-right: 15px;
+
 }
+
 .woocommerce .main-image .plus,
+
 .woocommerce .main-image .minus{
+
 	display: block;
+
 	background: url(../images/btns-zoom.png) no-repeat;
+
 	position: absolute;
+
 	right: 42px;
+
 	bottom: 10px;
+
 	width: 28px;
+
 	height: 28px;
+
 	text-indent: -9999px;
+
 	overflow: hidden;
+
 }
+
 .woocommerce .main-image .minus{
+
 	background-position: -32px 0;
+
 	right: 10px;
+
 }
+
 .shop-table-block{
+
 	margin-bottom: 35px;
+
 }
+
 .shop-table-block form{
+
 	background: #f2f8f8;
+
 	padding: 3px 45px 32px;
+
 }
+
 body.woocommerce-page table.shop_table{
+
 	margin: 0;
+
 	border: none;
+
 	font: 14px/17px 'Raleway SemiBold', Arial, Helvetica, sans-serif;
+
 	text-transform: uppercase;
+
 	border-collapse: collapse;
+
 	-webkit-border-radius:none;
+
 	border-radius:none;
+
 }
+
 body.woocommerce-page table.cart .product-thumbnail{
+
 	display: table-cell;
+
 }
+
 body.woocommerce-page table.shop_table .title{
+
 	font-size: 16px;
+
 	line-height: 19px;
+
 }
+
+
 
 body.woocommerce-page table.cart th,
+
 body.woocommerce-page table.cart td{
+
 	border: none;
+
 	padding: 12px 35px;
+
 }
+
 body.woocommerce-page table.cart th{
+
 	border-bottom: 20px solid #fff;
+
 	font: 17px/20px 'Raleway Bold', Arial, Helvetica, sans-serif;
+
 }
+
 body.woocommerce-page table.cart td{
+
 	background: #fff;
+
 	border-left: 1px solid #b7b7b7;
+
 	text-align: center;
+
 	padding-bottom: 10px;
+
 }
+
 body.woocommerce-page table.cart td.actions{
+
 	padding-bottom: 15px;
+
 }
+
 body.woocommerce-page table.cart td:first-child{
+
 	border: none;
+
 	width: 132px;
+
 }
+
 body.woocommerce-page table.cart .product-name{
+
 	text-align: left;
+
 	width: 170px;
+
 }
+
 body.woocommerce-page table.cart a{
+
 	color: #181818;
+
 }
+
 body.woocommerce-page table.cart ul{
+
 	list-style: none;
+
 	margin: 0;
+
 	padding: 10px 0 0;
+
 }
+
 body.woocommerce-page table.cart img{
+
 	width: 120px;
+
 }
+
 body.woocommerce-page table.cart ul li:before{
+
 	content:'- ';
+
 }
+
 body.woocommerce-page table.cart a.remove{
+
 	background: url(../images/ico-remove.png) no-repeat;
+
 	width: 13px;
+
 	height: 13px;
+
 	text-align: left;
+
 	text-indent: -9999px;
+
 	overflow: hidden;
+
 }
+
 body.woocommerce-page table.cart a.remove:hover{
+
 	background-color: inherit;
+
 }
+
 body.woocommerce-page .cart-collaterals .cart_totals{
+
 	width: 53%;
+
 }
+
 .woocommerce-page .cart-collaterals .cart_totals .shop-delivery-table{
+
 	background: #f2f8f8;
+
 	border-collapse: collapse;
+
 	font: 17px/20px 'Raleway Bold', Arial, Helvetica, sans-serif;
+
 	margin: 0 0 10px;
+
 	width: 100%;
+
 	-webkit-border-radius:0;
+
 	border-radius:0;
+
 }
+
 .woocommerce-page .cart-collaterals .cart_totals .shop-delivery-table th,
+
 .woocommerce-page .cart-collaterals .cart_totals .shop-delivery-table td{
+
 	padding: 8px 15px;
+
 	border: none;
+
 }
+
 .woocommerce-page .cart-collaterals .cart_totals .shop-delivery-table th{
+
 	background: #d4dada;
+
 	text-transform: uppercase;
+
 	text-align: right;
+
 	padding: 8px 43px 8px 15px;
+
 }
+
 .woocommerce-page .cart-collaterals .cart_totals .shop-delivery-table .second{
+
 	border-left: 1px solid #fff;
+
 	text-align: center;
+
 	width: 30%;
+
 }
+
 .woocommerce-page .cart-collaterals .cart_totals .shop-delivery-table td:first-child{
+
 	text-align: right;
+
 	width: 70%;
+
 }
+
 .woocommerce-page .cart-collaterals .cart_totals .cart-totals-table{
+
 	border-collapse: collapse;
+
 	margin: 0 0 30px;
+
 	font: 16px/19px 'Raleway SemiBold', Arial, Helvetica, sans-serif;
+
 	width: 100%;
+
 	
+
 }
+
 .woocommerce-page .cart-collaterals .cart_totals .cart-totals-table th,
+
 .woocommerce-page .cart-collaterals .cart_totals .cart-totals-table td{
+
 	padding: 7px 15px;
+
 	text-align: right;
+
 	background: #e5e5e5;
+
 	border: none;
+
 }
+
 .woocommerce-page .cart-collaterals .cart_totals .cart-totals-table th{
+
 	font: 17px/20px 'Raleway Bold', Arial, Helvetica, sans-serif;
+
 	text-transform: uppercase;
+
 	width: auto;
+
 }
+
 .woocommerce-page .cart-collaterals .cart_totals .cart-totals-table td{
+
 	padding-right: 40px;
+
 	border-left: 1px solid #fff;
+
 	width: 30%;
+
 }
+
 .woocommerce-page .cart-collaterals .cart_totals .cart-totals-table tr:nth-child(2n-1) th,
+
 .woocommerce-page .cart-collaterals .cart_totals .cart-totals-table tr:nth-child(2n-1) td{
+
 	background: #be1e2d;
+
 }
+
 .woocommerce-page .cart-collaterals .cart_totals .cart-totals-table tr.total th,
+
 .woocommerce-page .cart-collaterals .cart_totals .cart-totals-table tr.total td{
+
 	font-size: 22px;
+
 	line-height: 26px;
+
 }
+
 .shipping_calculator{
+
 	padding: 20px 0 0;
+
 }
+
 .shipping-calculator-form{
+
 	
+
 }
+
 .shipping_calculator h2{
+
 	margin: 0;
+
 }
+
 .variations .var-select{
-	margin: 0 0 20px;
+
+	margin: 10px 0 10px;
+
 }
+
 .var-select select{
+
 	width: 100%;
+
 }
+
 .var-select .jq-selectbox{
+
 	width: 100%;
+
 }
+
 .var-select .jq-selectbox__select{
-	font-size: 19px;
-	line-height: 56px;
-	height: 56px;
+
+	font-size: 16px;
+
+	line-height: 45px;
+
+	height: 45px;
+
 	width: auto !important;
+
 	border: 1px solid #cbcbcb;
+
 	padding: 0;
+
 }
+
 .var-select .opened .jq-selectbox__select{
+
 	border-bottom: none;
+
 	/*-webkit-box-sizing: border-box;
+
 	-moz-box-sizing: border-box;
+
 	box-sizing: border-box;*/
+
 }
+
 .var-select .jq-selectbox__dropdown{
+
 	font: 16px/19px 'Raleway SemiBold', Arial, Helvetica, sans-serif;
+
 }
+
 .var-select .jq-selectbox__select-text{
+
 	padding: 0 60px 0 18px;
+
 	/*-webkit-box-sizing: border-box;
+
 	-moz-box-sizing: border-box;
+
 	box-sizing: border-box;*/
+
 }
+
 .var-select .jq-selectbox__trigger {
+
 	right: 15px;
-	width: 34px;
-	height: 19px;
-	top: 22px;
+
+	width: 25px;
+
+	height: 14px;
+
+	top: 18px;
+
 	background: url(../images/arrow-accord.png) no-repeat;
+	background-size: 25px 14px;
+
 }
+
 .var-select .jq-selectbox__dropdown{
+
 	top: 0;
+
 	position: relative !important;
+
 	width: auto !important;
+
 	border: 1px solid #cbcbcb;
+
 	-webkit-box-shadow:none;
+
 	box-shadow:none;
+
 	-webkit-border-radius:0;
+
 	border-radius:0;
+
 }
+
 .var-select .opened .jq-selectbox__dropdown{
+
 	border-top: none;
+
 	height: auto !important;
+
 }
+
 .single_variation,
+
 form.cart .quantity{
 
+	margin-bottom: 10px;
+
+
 }
+
 body.woocommerce-page div.product form.cart{
+
 	margin: 0;
+
 }
+
 .var-select .jq-selectbox-wrapper select{
+
 	height: 100% !important;
+
 }
+
 .variations_form .quantity{
+
 	
+
 }
+
 /* end woocommerce styles */
 
+
+
 /* end construction styles */
+
