@@ -27,7 +27,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 			<th class="product-name"><?php _e( 'Product', 'woocommerce' ); ?></th>
 			<th class="product-quantity"><?php _e( 'Quantity', 'woocommerce' ); ?></th>
 			<th class="product-price"><?php _e( 'Price', 'woocommerce' ); ?></th>
-			<!--<th class="product-subtotal"><?php _e( 'Total', 'woocommerce' ); ?></th>-->
+			<th class="product-subtotal"><?php _e( 'Total', 'woocommerce' ); ?></th>
 			<th class="product-remove">&nbsp;</th>
 		</tr>
 	</thead>
@@ -89,11 +89,11 @@ do_action( 'woocommerce_before_cart' ); ?>
 						<span class="ico-info mobile-visible">i</span>
 					</td>
 
-					<!--<td class="product-price">
+					<td class="product-price">
 						<?php
 							echo apply_filters( 'woocommerce_cart_item_price', WC()->cart->get_product_price( $_product ), $cart_item, $cart_item_key );
 						?>
-					</td>-->
+					</td>
 
 					<td class="product-quantity">
 						<?php

@@ -62,10 +62,16 @@ class BulkPricing{
         		foreach ($var_ids as $var_id) 
         		{
         			$cfs     = get_post_custom($var_id);
+        			$attribute_size = '';
+        			if(isset($cfs['attribute_size']))
+        			{
+        				$attribute_size = sprintf(' (%s)', $cfs['attribute_size'][0]);
+        				unset($cfs['attribute_size']);
+        			}
         			$slug    = end($cfs);
         			$slug    = $slug[0];
         			$term    = get_term_by('slug', $slug, 'pa_manufacturing-material');
-        			$names[] = sprintf('<td>%s</td>', $term->description);
+        			$names[] = sprintf('<td>%s</td>', $term->description.$attribute_size);
         		}	
         	}
         }

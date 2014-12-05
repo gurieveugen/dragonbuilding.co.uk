@@ -2850,6 +2850,26 @@ table.table-backet td:first-child
 
 }
 
+div.right a.button.grey
+{
+  margin:0px 0px 0px 7px;
+  padding: 19px 20px 16px;
+  display:block;
+	float:left;
+    background:#acacac;
+    border:none;
+    text-shadow:none;
+    color:#000;
+    font: 15px/15px "Raleway SemiBold",Arial,Helvetica,sans-serif;
+    padding: 19px 20px 16px;
+    text-align: center;
+    min-width: 164px;
+    text-transform: uppercase;
+    border-radius: 0px;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+
 
 
 

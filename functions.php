@@ -329,5 +329,5 @@ function show_pricing_rules() {
 
     $bulk_pricing = new BulkPricing($woocommerce, $product, $post);
     echo $bulk_pricing->getHTML();
-    echo '<b>For orfders over 50 units please <a href="/contact">contact us</a></b>';
+    echo '<b>For orders over 50 units please <a href="/contact">contact us</a></b>';
 }
