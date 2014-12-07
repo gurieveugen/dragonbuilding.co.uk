@@ -133,7 +133,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 		<tr>
 			<td colspan="100%">
 				<div class="right">
-					<a href="/products" class="button grey">Continue Shopping</a>
+					<a href="/products" class="button grey continue-shopping">Continue Shopping</a>
 					<input type="submit" class="update-button button" name="update_cart" value="<?php _e('Update cart'); ?>" />		
 				</div>
 			</td>
